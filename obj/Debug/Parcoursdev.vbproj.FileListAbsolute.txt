@@ -1,0 +1,37 @@
+C:\Users\antoi\OneDrive\DUT Informatique S2\IHM VB\ProjetIhm\bin\Debug\Parcoursdev.exe.config
+C:\Users\antoi\OneDrive\DUT Informatique S2\IHM VB\ProjetIhm\bin\Debug\Parcoursdev.exe
+C:\Users\antoi\OneDrive\DUT Informatique S2\IHM VB\ProjetIhm\bin\Debug\Parcoursdev.pdb
+C:\Users\antoi\OneDrive\DUT Informatique S2\IHM VB\ProjetIhm\bin\Debug\Parcoursdev.xml
+C:\Users\antoi\OneDrive\DUT Informatique S2\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.ChoixRegionMatieres.resources
+C:\Users\antoi\OneDrive\DUT Informatique S2\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.Inscription.resources
+C:\Users\antoi\OneDrive\DUT Informatique S2\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.Menu.resources
+C:\Users\antoi\OneDrive\DUT Informatique S2\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.Resources.resources
+C:\Users\antoi\OneDrive\DUT Informatique S2\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.vbproj.GenerateResource.cache
+C:\Users\antoi\OneDrive\DUT Informatique S2\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.vbproj.CoreCompileInputs.cache
+C:\Users\antoi\OneDrive\DUT Informatique S2\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.exe
+C:\Users\antoi\OneDrive\DUT Informatique S2\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.xml
+C:\Users\antoi\OneDrive\DUT Informatique S2\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.pdb
+C:\Users\antoi\OneDrive\DUT Informatique S2\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.vbprojAssemblyReference.cache
+C:\Users\antoi\OneDrive\DUT Informatique S2\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.Recap.resources
+C:\Users\antoi\OneDrive\DUT Informatique S2\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.GestionInscriptions.resources
+C:\Users\thiba\OneDrive\IHM VB\ProjetIhm\bin\Debug\Parcoursdev.exe.config
+C:\Users\thiba\OneDrive\IHM VB\ProjetIhm\bin\Debug\Parcoursdev.exe
+C:\Users\thiba\OneDrive\IHM VB\ProjetIhm\bin\Debug\Parcoursdev.pdb
+C:\Users\thiba\OneDrive\IHM VB\ProjetIhm\bin\Debug\Parcoursdev.xml
+C:\Users\thiba\OneDrive\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.vbprojAssemblyReference.cache
+C:\Users\thiba\OneDrive\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.ChoixRegionMatieres.resources
+C:\Users\thiba\OneDrive\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.GestionInscriptions.resources
+C:\Users\thiba\OneDrive\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.Inscription.resources
+C:\Users\thiba\OneDrive\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.Menu.resources
+C:\Users\thiba\OneDrive\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.Resources.resources
+C:\Users\thiba\OneDrive\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.Recap.resources
+C:\Users\thiba\OneDrive\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.vbproj.GenerateResource.cache
+C:\Users\thiba\OneDrive\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.vbproj.CoreCompileInputs.cache
+C:\Users\thiba\OneDrive\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.exe
+C:\Users\thiba\OneDrive\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.xml
+C:\Users\thiba\OneDrive\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.pdb
+C:\Users\thiba\OneDrive\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.ConsulterInscriptions.resources
+C:\Users\thiba\OneDrive\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.Modification.resources
+C:\Users\antoi\OneDrive\DUT Informatique S2\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.ConsulterInscriptions.resources
+C:\Users\antoi\OneDrive\DUT Informatique S2\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.Modification.resources
+C:\Users\thiba\OneDrive\IHM VB\ProjetIhm\obj\Debug\Parcoursdev.MenuBilan.resources

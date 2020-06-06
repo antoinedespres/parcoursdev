@@ -36,16 +36,16 @@ Partial Class Inscription
         Me.LabelAdresse = New System.Windows.Forms.Label()
         Me.LabelPrenom = New System.Windows.Forms.Label()
         Me.LabelNom = New System.Windows.Forms.Label()
-        Me.AdresseCadidat = New System.Windows.Forms.TextBox()
-        Me.PrenomCadidat = New System.Windows.Forms.TextBox()
-        Me.NomCadidat = New System.Windows.Forms.TextBox()
+        Me.AdresseCandidat = New System.Windows.Forms.TextBox()
+        Me.PrenomCandidat = New System.Windows.Forms.TextBox()
+        Me.NomCandidat = New System.Windows.Forms.TextBox()
         Me.TimerInscription = New System.Windows.Forms.Timer(Me.components)
         Me.Abandonner = New System.Windows.Forms.Button()
         Me.Enregistrer = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.GroupBox1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SuspendLayout()
+        Me.GroupBox1.SuspendLayout
+        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.SuspendLayout
         '
         'GroupBox1
         '
@@ -60,145 +60,144 @@ Partial Class Inscription
         Me.GroupBox1.Controls.Add(Me.LabelAdresse)
         Me.GroupBox1.Controls.Add(Me.LabelPrenom)
         Me.GroupBox1.Controls.Add(Me.LabelNom)
-        Me.GroupBox1.Controls.Add(Me.AdresseCadidat)
-        Me.GroupBox1.Controls.Add(Me.PrenomCadidat)
-        Me.GroupBox1.Controls.Add(Me.NomCadidat)
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 117)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
+        Me.GroupBox1.Controls.Add(Me.AdresseCandidat)
+        Me.GroupBox1.Controls.Add(Me.PrenomCandidat)
+        Me.GroupBox1.Controls.Add(Me.NomCandidat)
+        Me.GroupBox1.Location = New System.Drawing.Point(15, 144)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
-        Me.GroupBox1.Size = New System.Drawing.Size(341, 213)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.GroupBox1.Size = New System.Drawing.Size(447, 262)
         Me.GroupBox1.TabIndex = 0
-        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.TabStop = false
         Me.GroupBox1.Text = "Coordonnées"
         '
         'LabelAge
         '
-        Me.LabelAge.AutoSize = True
-        Me.LabelAge.Location = New System.Drawing.Point(47, 187)
-        Me.LabelAge.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelAge.AutoSize = true
+        Me.LabelAge.Location = New System.Drawing.Point(63, 230)
         Me.LabelAge.Name = "LabelAge"
-        Me.LabelAge.Size = New System.Drawing.Size(26, 13)
+        Me.LabelAge.Size = New System.Drawing.Size(33, 16)
         Me.LabelAge.TabIndex = 13
         Me.LabelAge.Text = "Âge"
         '
         'LabelAgeSelect
         '
-        Me.LabelAgeSelect.AutoSize = True
-        Me.LabelAgeSelect.Location = New System.Drawing.Point(286, 187)
+        Me.LabelAgeSelect.AutoSize = true
+        Me.LabelAgeSelect.Location = New System.Drawing.Point(381, 230)
+        Me.LabelAgeSelect.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LabelAgeSelect.Name = "LabelAgeSelect"
-        Me.LabelAgeSelect.Size = New System.Drawing.Size(0, 13)
+        Me.LabelAgeSelect.Size = New System.Drawing.Size(32, 16)
         Me.LabelAgeSelect.TabIndex = 12
+        Me.LabelAgeSelect.Text = "âge"
         '
         'HScrollBarAge
         '
-        Me.HScrollBarAge.Location = New System.Drawing.Point(90, 181)
+        Me.HScrollBarAge.Location = New System.Drawing.Point(120, 223)
         Me.HScrollBarAge.Maximum = 55
         Me.HScrollBarAge.Minimum = 18
         Me.HScrollBarAge.Name = "HScrollBarAge"
-        Me.HScrollBarAge.Size = New System.Drawing.Size(180, 20)
+        Me.HScrollBarAge.Size = New System.Drawing.Size(240, 20)
         Me.HScrollBarAge.TabIndex = 5
         Me.HScrollBarAge.Value = 18
         '
         'LabelVille
         '
-        Me.LabelVille.AutoSize = True
-        Me.LabelVille.Location = New System.Drawing.Point(47, 150)
-        Me.LabelVille.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelVille.AutoSize = true
+        Me.LabelVille.Location = New System.Drawing.Point(63, 185)
         Me.LabelVille.Name = "LabelVille"
-        Me.LabelVille.Size = New System.Drawing.Size(26, 13)
+        Me.LabelVille.Size = New System.Drawing.Size(34, 16)
         Me.LabelVille.TabIndex = 11
         Me.LabelVille.Text = "Ville"
         '
         'LabelCP
         '
-        Me.LabelCP.AutoSize = True
-        Me.LabelCP.Location = New System.Drawing.Point(9, 124)
-        Me.LabelCP.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelCP.AutoSize = true
+        Me.LabelCP.Location = New System.Drawing.Point(12, 153)
         Me.LabelCP.Name = "LabelCP"
-        Me.LabelCP.Size = New System.Drawing.Size(63, 13)
+        Me.LabelCP.Size = New System.Drawing.Size(81, 16)
         Me.LabelCP.TabIndex = 10
         Me.LabelCP.Text = "Code postal"
         '
         'VilleCandidat
         '
-        Me.VilleCandidat.Location = New System.Drawing.Point(90, 143)
+        Me.VilleCandidat.Location = New System.Drawing.Point(120, 176)
+        Me.VilleCandidat.Margin = New System.Windows.Forms.Padding(4)
         Me.VilleCandidat.MaxLength = 15
         Me.VilleCandidat.Name = "VilleCandidat"
-        Me.VilleCandidat.Size = New System.Drawing.Size(180, 20)
+        Me.VilleCandidat.Size = New System.Drawing.Size(239, 22)
         Me.VilleCandidat.TabIndex = 4
         '
         'CPCandidat
         '
-        Me.CPCandidat.Location = New System.Drawing.Point(90, 117)
+        Me.CPCandidat.Location = New System.Drawing.Point(120, 144)
+        Me.CPCandidat.Margin = New System.Windows.Forms.Padding(4)
         Me.CPCandidat.MaxLength = 5
         Me.CPCandidat.Name = "CPCandidat"
-        Me.CPCandidat.Size = New System.Drawing.Size(100, 20)
+        Me.CPCandidat.Size = New System.Drawing.Size(132, 22)
         Me.CPCandidat.TabIndex = 3
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(8, -91)
+        Me.TextBox1.Location = New System.Drawing.Point(11, -112)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(91, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(120, 22)
         Me.TextBox1.TabIndex = 7
         '
         'LabelAdresse
         '
-        Me.LabelAdresse.AutoSize = True
-        Me.LabelAdresse.Location = New System.Drawing.Point(27, 92)
-        Me.LabelAdresse.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelAdresse.AutoSize = true
+        Me.LabelAdresse.Location = New System.Drawing.Point(36, 113)
         Me.LabelAdresse.Name = "LabelAdresse"
-        Me.LabelAdresse.Size = New System.Drawing.Size(45, 13)
+        Me.LabelAdresse.Size = New System.Drawing.Size(59, 16)
         Me.LabelAdresse.TabIndex = 6
         Me.LabelAdresse.Text = "Adresse"
         '
         'LabelPrenom
         '
-        Me.LabelPrenom.AutoSize = True
-        Me.LabelPrenom.Location = New System.Drawing.Point(29, 60)
-        Me.LabelPrenom.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelPrenom.AutoSize = true
+        Me.LabelPrenom.Location = New System.Drawing.Point(39, 74)
         Me.LabelPrenom.Name = "LabelPrenom"
-        Me.LabelPrenom.Size = New System.Drawing.Size(43, 13)
+        Me.LabelPrenom.Size = New System.Drawing.Size(55, 16)
         Me.LabelPrenom.TabIndex = 5
         Me.LabelPrenom.Text = "Prénom"
         '
         'LabelNom
         '
-        Me.LabelNom.AutoSize = True
-        Me.LabelNom.Location = New System.Drawing.Point(44, 30)
-        Me.LabelNom.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelNom.AutoSize = true
+        Me.LabelNom.Location = New System.Drawing.Point(59, 37)
         Me.LabelNom.Name = "LabelNom"
-        Me.LabelNom.Size = New System.Drawing.Size(29, 13)
+        Me.LabelNom.Size = New System.Drawing.Size(37, 16)
         Me.LabelNom.TabIndex = 4
         Me.LabelNom.Text = "Nom"
         '
-        'AdresseCadidat
+        'AdresseCandidat
         '
-        Me.AdresseCadidat.Location = New System.Drawing.Point(90, 92)
-        Me.AdresseCadidat.Margin = New System.Windows.Forms.Padding(2)
-        Me.AdresseCadidat.MaxLength = 30
-        Me.AdresseCadidat.Name = "AdresseCadidat"
-        Me.AdresseCadidat.Size = New System.Drawing.Size(180, 20)
-        Me.AdresseCadidat.TabIndex = 2
+        Me.AdresseCandidat.Location = New System.Drawing.Point(120, 113)
+        Me.AdresseCandidat.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.AdresseCandidat.MaxLength = 30
+        Me.AdresseCandidat.Name = "AdresseCandidat"
+        Me.AdresseCandidat.Size = New System.Drawing.Size(239, 22)
+        Me.AdresseCandidat.TabIndex = 2
         '
-        'PrenomCadidat
+        'PrenomCandidat
         '
-        Me.PrenomCadidat.Location = New System.Drawing.Point(90, 60)
-        Me.PrenomCadidat.Margin = New System.Windows.Forms.Padding(2)
-        Me.PrenomCadidat.MaxLength = 20
-        Me.PrenomCadidat.Name = "PrenomCadidat"
-        Me.PrenomCadidat.Size = New System.Drawing.Size(180, 20)
-        Me.PrenomCadidat.TabIndex = 1
+        Me.PrenomCandidat.Location = New System.Drawing.Point(120, 74)
+        Me.PrenomCandidat.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.PrenomCandidat.MaxLength = 20
+        Me.PrenomCandidat.Name = "PrenomCandidat"
+        Me.PrenomCandidat.Size = New System.Drawing.Size(239, 22)
+        Me.PrenomCandidat.TabIndex = 1
         '
-        'NomCadidat
+        'NomCandidat
         '
-        Me.NomCadidat.Location = New System.Drawing.Point(90, 30)
-        Me.NomCadidat.Margin = New System.Windows.Forms.Padding(2)
-        Me.NomCadidat.MaxLength = 15
-        Me.NomCadidat.Name = "NomCadidat"
-        Me.NomCadidat.Size = New System.Drawing.Size(180, 20)
-        Me.NomCadidat.TabIndex = 0
+        Me.NomCandidat.Location = New System.Drawing.Point(120, 37)
+        Me.NomCandidat.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.NomCandidat.MaxLength = 15
+        Me.NomCandidat.Name = "NomCandidat"
+        Me.NomCandidat.Size = New System.Drawing.Size(239, 22)
+        Me.NomCandidat.TabIndex = 0
         '
         'TimerInscription
         '
@@ -206,56 +205,59 @@ Partial Class Inscription
         '
         'Abandonner
         '
-        Me.Abandonner.Location = New System.Drawing.Point(12, 363)
+        Me.Abandonner.Location = New System.Drawing.Point(39, 447)
+        Me.Abandonner.Margin = New System.Windows.Forms.Padding(4)
         Me.Abandonner.Name = "Abandonner"
-        Me.Abandonner.Size = New System.Drawing.Size(115, 38)
+        Me.Abandonner.Size = New System.Drawing.Size(153, 47)
         Me.Abandonner.TabIndex = 1
         Me.Abandonner.Text = "Abandonner"
-        Me.Abandonner.UseVisualStyleBackColor = True
+        Me.Abandonner.UseVisualStyleBackColor = true
         '
         'Enregistrer
         '
-        Me.Enregistrer.Location = New System.Drawing.Point(199, 363)
+        Me.Enregistrer.Location = New System.Drawing.Point(222, 447)
+        Me.Enregistrer.Margin = New System.Windows.Forms.Padding(4)
         Me.Enregistrer.Name = "Enregistrer"
-        Me.Enregistrer.Size = New System.Drawing.Size(115, 38)
+        Me.Enregistrer.Size = New System.Drawing.Size(153, 47)
         Me.Enregistrer.TabIndex = 2
         Me.Enregistrer.Text = "Enregistrer"
-        Me.Enregistrer.UseVisualStyleBackColor = True
+        Me.Enregistrer.UseVisualStyleBackColor = true
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Parcoursdev.My.Resources.Resources.logo_large
-        Me.PictureBox1.Location = New System.Drawing.Point(62, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(39, 13)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(236, 57)
+        Me.PictureBox1.Size = New System.Drawing.Size(315, 70)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 3
-        Me.PictureBox1.TabStop = False
+        Me.PictureBox1.TabStop = false
         '
         'Inscription
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8!, 16!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(364, 429)
+        Me.ClientSize = New System.Drawing.Size(474, 528)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Enregistrer)
         Me.Controls.Add(Me.Abandonner)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.Icon = CType(resources.GetObject("$this.Icon"),System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Inscription"
         Me.Text = "Inscription"
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.ResumeLayout(False)
+        Me.GroupBox1.ResumeLayout(false)
+        Me.GroupBox1.PerformLayout
+        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).EndInit
+        Me.ResumeLayout(false)
 
-    End Sub
+End Sub
 
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents AdresseCadidat As TextBox
-    Friend WithEvents PrenomCadidat As TextBox
-    Friend WithEvents NomCadidat As TextBox
+    Friend WithEvents AdresseCandidat As TextBox
+    Friend WithEvents PrenomCandidat As TextBox
+    Friend WithEvents NomCandidat As TextBox
     Friend WithEvents LabelNom As Label
     Friend WithEvents LabelAdresse As Label
     Friend WithEvents LabelPrenom As Label

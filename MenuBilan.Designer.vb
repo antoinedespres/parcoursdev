@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class MenuBilan
     Inherits System.Windows.Forms.Form
 
     'Form remplace la méthode Dispose pour nettoyer la liste des composants.
@@ -22,16 +22,29 @@ Partial Class Form1
     'Ne la modifiez pas à l'aide de l'éditeur de code.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.BilanIndividuel = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Form1
+        'BilanIndividuel
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.BilanIndividuel.Location = New System.Drawing.Point(412, 203)
+        Me.BilanIndividuel.Name = "BilanIndividuel"
+        Me.BilanIndividuel.Size = New System.Drawing.Size(172, 78)
+        Me.BilanIndividuel.TabIndex = 0
+        Me.BilanIndividuel.Text = "Bilan Individuel"
+        Me.BilanIndividuel.UseVisualStyleBackColor = True
+        '
+        'MenuBilan
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Controls.Add(Me.BilanIndividuel)
+        Me.Name = "MenuBilan"
+        Me.Text = "MenuBilan"
         Me.ResumeLayout(False)
 
     End Sub
+
+    Friend WithEvents BilanIndividuel As Button
 End Class

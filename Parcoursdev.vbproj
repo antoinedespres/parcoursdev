@@ -94,10 +94,22 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="ChoixRegionMatieres.Designer.vb">
+      <DependentUpon>ChoixRegionMatieres.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form1.vb">
+    <Compile Include="ChoixRegionMatieres.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsulterInscriptions.Designer.vb">
+      <DependentUpon>ConsulterInscriptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConsulterInscriptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionInscriptions.Designer.vb">
+      <DependentUpon>GestionInscriptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionInscriptions.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Menu.vb">
@@ -111,6 +123,18 @@
       <DependentUpon>Inscription.vb</DependentUpon>
     </Compile>
     <Compile Include="Inscription.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuBilan.Designer.vb">
+      <DependentUpon>MenuBilan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuBilan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification.Designer.vb">
+      <DependentUpon>Modification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modification.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Parcoursdev.vb" />
@@ -130,10 +154,22 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Recap.Designer.vb">
+      <DependentUpon>Recap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Recap.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="ChoixRegionMatieres.resx">
+      <DependentUpon>ChoixRegionMatieres.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsulterInscriptions.resx">
+      <DependentUpon>ConsulterInscriptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionInscriptions.resx">
+      <DependentUpon>GestionInscriptions.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inscription.resx">
       <DependentUpon>Inscription.vb</DependentUpon>
@@ -141,11 +177,20 @@
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MenuBilan.resx">
+      <DependentUpon>MenuBilan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modification.resx">
+      <DependentUpon>Modification.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recap.resx">
+      <DependentUpon>Recap.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
