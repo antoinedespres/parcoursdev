@@ -23,124 +23,116 @@ Partial Class ConsulterInscriptions
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ConsulterInscriptions))
-        Me.ListBoxNomPreNumCand = New System.Windows.Forms.ListBox()
-        Me.ListBoxEcrit = New System.Windows.Forms.ListBox()
-        Me.ListBoxOral = New System.Windows.Forms.ListBox()
-        Me.LabelFacultative = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Fermer = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.Fermer = New System.Windows.Forms.Button()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.LabelFacultative = New System.Windows.Forms.Label()
+        Me.ListBoxOral = New System.Windows.Forms.ListBox()
+        Me.ListBoxEcrit = New System.Windows.Forms.ListBox()
+        Me.ListBoxNomPreNumCand = New System.Windows.Forms.ListBox()
         CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).BeginInit
         Me.SuspendLayout
         '
-        'ListBoxNomPreNumCand
+        'Label5
         '
-        Me.ListBoxNomPreNumCand.FormattingEnabled = True
-        Me.ListBoxNomPreNumCand.ItemHeight = 16
-        Me.ListBoxNomPreNumCand.Location = New System.Drawing.Point(12, 137)
-        Me.ListBoxNomPreNumCand.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.ListBoxNomPreNumCand.Name = "ListBoxNomPreNumCand"
-        Me.ListBoxNomPreNumCand.Size = New System.Drawing.Size(392, 292)
-        Me.ListBoxNomPreNumCand.TabIndex = 0
+        Me.Label5.AutoSize = true
+        Me.Label5.Location = New System.Drawing.Point(10, 359)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(105, 13)
+        Me.Label5.TabIndex = 21
+        Me.Label5.Text = "Épreuve facultative :"
         '
-        'ListBoxEcrit
+        'Fermer
         '
-        Me.ListBoxEcrit.FormattingEnabled = True
-        Me.ListBoxEcrit.ItemHeight = 16
-        Me.ListBoxEcrit.Location = New System.Drawing.Point(411, 137)
-        Me.ListBoxEcrit.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.ListBoxEcrit.Name = "ListBoxEcrit"
-        Me.ListBoxEcrit.Size = New System.Drawing.Size(81, 116)
-        Me.ListBoxEcrit.TabIndex = 1
+        Me.Fermer.Location = New System.Drawing.Point(266, 358)
+        Me.Fermer.Name = "Fermer"
+        Me.Fermer.Size = New System.Drawing.Size(78, 30)
+        Me.Fermer.TabIndex = 20
+        Me.Fermer.Text = "Fermer"
+        Me.Fermer.UseVisualStyleBackColor = true
         '
-        'ListBoxOral
+        'Label4
         '
-        Me.ListBoxOral.FormattingEnabled = True
-        Me.ListBoxOral.ItemHeight = 16
-        Me.ListBoxOral.Location = New System.Drawing.Point(411, 289)
-        Me.ListBoxOral.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.ListBoxOral.Name = "ListBoxOral"
-        Me.ListBoxOral.Size = New System.Drawing.Size(84, 132)
-        Me.ListBoxOral.TabIndex = 2
+        Me.Label4.AutoSize = true
+        Me.Label4.Location = New System.Drawing.Point(305, 212)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(26, 13)
+        Me.Label4.TabIndex = 19
+        Me.Label4.Text = "Oral"
         '
-        'LabelFacultative
+        'Label3
         '
-        Me.LabelFacultative.AutoSize = True
-        Me.LabelFacultative.Location = New System.Drawing.Point(13, 478)
-        Me.LabelFacultative.Name = "LabelFacultative"
-        Me.LabelFacultative.Size = New System.Drawing.Size(76, 17)
-        Me.LabelFacultative.TabIndex = 3
-        Me.LabelFacultative.Text = "Facultative"
+        Me.Label3.AutoSize = true
+        Me.Label3.Location = New System.Drawing.Point(305, 89)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(28, 13)
+        Me.Label3.TabIndex = 18
+        Me.Label3.Text = "Écrit"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = true
+        Me.Label2.Location = New System.Drawing.Point(9, 89)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(120, 13)
+        Me.Label2.TabIndex = 17
+        Me.Label2.Text = "Nom, prénom et numéro"
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Parcoursdev.My.Resources.Resources.logo_large
-        Me.PictureBox1.Location = New System.Drawing.Point(16, 15)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 9)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(404, 87)
+        Me.PictureBox1.Size = New System.Drawing.Size(303, 71)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 5
-        Me.PictureBox1.TabStop = False
+        Me.PictureBox1.TabIndex = 16
+        Me.PictureBox1.TabStop = false
         '
-        'Label2
+        'LabelFacultative
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(12, 115)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(161, 17)
-        Me.Label2.TabIndex = 7
-        Me.Label2.Text = "Nom, prénom et numéro"
+        Me.LabelFacultative.AutoSize = true
+        Me.LabelFacultative.Location = New System.Drawing.Point(10, 385)
+        Me.LabelFacultative.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelFacultative.Name = "LabelFacultative"
+        Me.LabelFacultative.Size = New System.Drawing.Size(59, 13)
+        Me.LabelFacultative.TabIndex = 15
+        Me.LabelFacultative.Text = "Facultative"
         '
-        'Label3
+        'ListBoxOral
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(407, 113)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(36, 17)
-        Me.Label3.TabIndex = 8
-        Me.Label3.Text = "Écrit"
+        Me.ListBoxOral.FormattingEnabled = true
+        Me.ListBoxOral.Location = New System.Drawing.Point(308, 232)
+        Me.ListBoxOral.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ListBoxOral.Name = "ListBoxOral"
+        Me.ListBoxOral.Size = New System.Drawing.Size(64, 108)
+        Me.ListBoxOral.TabIndex = 14
         '
-        'Label4
+        'ListBoxEcrit
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(407, 265)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(35, 17)
-        Me.Label4.TabIndex = 9
-        Me.Label4.Text = "Oral"
+        Me.ListBoxEcrit.FormattingEnabled = true
+        Me.ListBoxEcrit.Location = New System.Drawing.Point(308, 108)
+        Me.ListBoxEcrit.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ListBoxEcrit.Name = "ListBoxEcrit"
+        Me.ListBoxEcrit.Size = New System.Drawing.Size(62, 95)
+        Me.ListBoxEcrit.TabIndex = 13
         '
-        'Fermer
+        'ListBoxNomPreNumCand
         '
-        Me.Fermer.Location = New System.Drawing.Point(354, 444)
-        Me.Fermer.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.Fermer.Name = "Fermer"
-        Me.Fermer.Size = New System.Drawing.Size(104, 37)
-        Me.Fermer.TabIndex = 10
-        Me.Fermer.Text = "Fermer"
-        Me.Fermer.UseVisualStyleBackColor = True
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(13, 445)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(137, 17)
-        Me.Label5.TabIndex = 11
-        Me.Label5.Text = "Épreuve facultative :"
+        Me.ListBoxNomPreNumCand.FormattingEnabled = true
+        Me.ListBoxNomPreNumCand.Location = New System.Drawing.Point(9, 108)
+        Me.ListBoxNomPreNumCand.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ListBoxNomPreNumCand.Name = "ListBoxNomPreNumCand"
+        Me.ListBoxNomPreNumCand.Size = New System.Drawing.Size(295, 238)
+        Me.ListBoxNomPreNumCand.TabIndex = 12
         '
         'ConsulterInscriptions
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(532, 504)
+        Me.ClientSize = New System.Drawing.Size(388, 400)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Fermer)
         Me.Controls.Add(Me.Label4)
@@ -151,24 +143,24 @@ Partial Class ConsulterInscriptions
         Me.Controls.Add(Me.ListBoxOral)
         Me.Controls.Add(Me.ListBoxEcrit)
         Me.Controls.Add(Me.ListBoxNomPreNumCand)
-        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Icon = CType(resources.GetObject("$this.Icon"),System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "ConsulterInscriptions"
-        Me.Text = "Consultation des inscriptions"
+        Me.Text = "Consulter les inscriptions"
         CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).EndInit
         Me.ResumeLayout(false)
         Me.PerformLayout
 
 End Sub
 
-    Friend WithEvents ListBoxNomPreNumCand As ListBox
-    Friend WithEvents ListBoxEcrit As ListBox
-    Friend WithEvents ListBoxOral As ListBox
-    Friend WithEvents LabelFacultative As Label
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Fermer As Button
     Friend WithEvents Label5 As Label
+    Friend WithEvents Fermer As Button
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents LabelFacultative As Label
+    Friend WithEvents ListBoxOral As ListBox
+    Friend WithEvents ListBoxEcrit As ListBox
+    Friend WithEvents ListBoxNomPreNumCand As ListBox
 End Class

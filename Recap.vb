@@ -1,10 +1,13 @@
-﻿Public Class Recap
-    Private Sub Abandonner_Click(sender As Object, e As EventArgs) Handles Abandonner.Click
-        ChoixRegionMatieres.Close()
-        Inscription.Close()
-        Me.Close()
-    End Sub
+﻿''' <summary>
+''' Formulaire de récapitulatif d'inscription
+''' </summary>
+Public Class Recap
 
+    ''' <summary>
+    ''' Chargement du formulaire
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
     Private Sub Recap_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         LabelNom.Text = Inscription.NomCandidat.Text
         LabelPrenom.Text = Inscription.PrenomCandidat.Text
@@ -20,6 +23,11 @@
 
     End Sub
 
+    ''' <summary>
+    ''' Chargement de la liste des épreuves choisies (écrit ou oral)
+    ''' </summary>
+    ''' <param name="Source"></param>
+    ''' <param name="Dest"></param>
     Private Sub Load_Mat(ByRef Source, ByRef Dest)
         Dim i As Integer = 0
         For Each cb As CheckBox In Source
@@ -30,7 +38,13 @@
         Next
     End Sub
 
-    Private Sub Retour_Click(sender As Object, e As EventArgs) Handles Retour.Click
+    ''' <summary>
+    ''' Retour au choix de la région de pasasge et des épreuves
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
+    Private Sub Retour_Click(sender As Object, e As EventArgs) _
+        Handles Retour.Click
         ChoixRegionMatieres.Show()
         ChoixRegionMatieres.TimerRegionMatiere.Start()
         Dim i As Integer = 0
@@ -43,7 +57,25 @@
         Me.Close()
     End Sub
 
-    Private Sub Enregistrer_Click(sender As Object, e As EventArgs) Handles Enregistrer.Click
+    ''' <summary>
+    ''' Abandon de l'inscription (rien n'est enregistré)
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
+    Private Sub Abandonner_Click(sender As Object, e As EventArgs) _
+        Handles Abandonner.Click
+        ChoixRegionMatieres.Close()
+        Inscription.Close()
+        Me.Close()
+    End Sub
+
+    ''' <summary>
+    ''' Enregistrement de l'inscription
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
+    Private Sub Enregistrer_Click(sender As Object, e As EventArgs) _
+        Handles Enregistrer.Click
         Dim i As Integer = 0
         Dim matieres(7) As String
         For Each mat As Label In GroupBoxEcrit.Controls
@@ -57,7 +89,6 @@
         matieres(i) = LabelFacultative.Text
         ajout(LabelNom.Text, LabelPrenom.Text, LabelAdresse.Text, LabelCP.Text, LabelVille.Text, LabelAge.Text, LabelRegion.Text, matieres)
         MsgBox("Le candidat numéro " & ListCandidats.Last().NumCandidat & " a bien été enregistré.")
-        'triABullesCandidat(Parcoursdev.ListCandidats)
         ChoixRegionMatieres.Close()
         Inscription.Close()
         Me.Close()

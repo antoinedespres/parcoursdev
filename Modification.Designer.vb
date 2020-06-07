@@ -22,6 +22,7 @@ Partial Class Modification
     'Ne la modifiez pas à l'aide de l'éditeur de code.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Modification))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.NumCandidat = New System.Windows.Forms.Label()
         Me.CandidatNum = New System.Windows.Forms.Label()
@@ -647,6 +648,7 @@ Partial Class Modification
         Me.Controls.Add(Me.GroupBoxEcrit)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.GroupBox1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"),System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Modification"
         Me.Text = "Modification"

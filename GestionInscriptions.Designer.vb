@@ -31,90 +31,96 @@ Partial Class GestionInscriptions
         Me.ComboNomPreCandidats = New System.Windows.Forms.ComboBox()
         Me.Consulter = New System.Windows.Forms.Button()
         Me.Fermer = New System.Windows.Forms.Button()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SuspendLayout()
+        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.SuspendLayout
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(13, 13)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"),System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(10, 11)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(292, 71)
+        Me.PictureBox1.Size = New System.Drawing.Size(219, 58)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 2
-        Me.PictureBox1.TabStop = False
+        Me.PictureBox1.TabStop = false
         '
         'ComboNumCandidats
         '
         Me.ComboNumCandidats.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboNumCandidats.FormattingEnabled = True
-        Me.ComboNumCandidats.Location = New System.Drawing.Point(312, 50)
+        Me.ComboNumCandidats.FormattingEnabled = true
+        Me.ComboNumCandidats.Location = New System.Drawing.Point(234, 41)
+        Me.ComboNumCandidats.Margin = New System.Windows.Forms.Padding(2)
         Me.ComboNumCandidats.Name = "ComboNumCandidats"
-        Me.ComboNumCandidats.Size = New System.Drawing.Size(70, 24)
+        Me.ComboNumCandidats.Size = New System.Drawing.Size(54, 21)
         Me.ComboNumCandidats.TabIndex = 3
         '
         'Label1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(312, 30)
+        Me.Label1.AutoSize = true
+        Me.Label1.Location = New System.Drawing.Point(234, 24)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(175, 17)
+        Me.Label1.Size = New System.Drawing.Size(133, 13)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Sélectionnez un candidat :"
         '
         'Supprimer
         '
-        Me.Supprimer.Location = New System.Drawing.Point(224, 118)
+        Me.Supprimer.Location = New System.Drawing.Point(168, 96)
+        Me.Supprimer.Margin = New System.Windows.Forms.Padding(2)
         Me.Supprimer.Name = "Supprimer"
-        Me.Supprimer.Size = New System.Drawing.Size(96, 30)
+        Me.Supprimer.Size = New System.Drawing.Size(72, 24)
         Me.Supprimer.TabIndex = 5
         Me.Supprimer.Text = "Suprimer"
-        Me.Supprimer.UseVisualStyleBackColor = True
+        Me.Supprimer.UseVisualStyleBackColor = true
         '
         'Modifier
         '
-        Me.Modifier.Location = New System.Drawing.Point(327, 118)
+        Me.Modifier.Location = New System.Drawing.Point(245, 96)
+        Me.Modifier.Margin = New System.Windows.Forms.Padding(2)
         Me.Modifier.Name = "Modifier"
-        Me.Modifier.Size = New System.Drawing.Size(75, 30)
+        Me.Modifier.Size = New System.Drawing.Size(56, 24)
         Me.Modifier.TabIndex = 6
         Me.Modifier.Text = "Modifier"
-        Me.Modifier.UseVisualStyleBackColor = True
+        Me.Modifier.UseVisualStyleBackColor = true
         '
         'ComboNomPreCandidats
         '
         Me.ComboNomPreCandidats.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboNomPreCandidats.FormattingEnabled = True
-        Me.ComboNomPreCandidats.Location = New System.Drawing.Point(388, 50)
+        Me.ComboNomPreCandidats.FormattingEnabled = true
+        Me.ComboNomPreCandidats.Location = New System.Drawing.Point(291, 41)
+        Me.ComboNomPreCandidats.Margin = New System.Windows.Forms.Padding(2)
         Me.ComboNomPreCandidats.Name = "ComboNomPreCandidats"
-        Me.ComboNomPreCandidats.Size = New System.Drawing.Size(217, 24)
+        Me.ComboNomPreCandidats.Size = New System.Drawing.Size(209, 21)
         Me.ComboNomPreCandidats.TabIndex = 7
         '
         'Consulter
         '
-        Me.Consulter.Location = New System.Drawing.Point(501, 104)
+        Me.Consulter.Location = New System.Drawing.Point(433, 84)
+        Me.Consulter.Margin = New System.Windows.Forms.Padding(2)
         Me.Consulter.Name = "Consulter"
-        Me.Consulter.Size = New System.Drawing.Size(128, 40)
+        Me.Consulter.Size = New System.Drawing.Size(96, 32)
         Me.Consulter.TabIndex = 8
         Me.Consulter.Text = "Consulter"
-        Me.Consulter.UseVisualStyleBackColor = True
-        Me.Consulter.Visible = False
+        Me.Consulter.UseVisualStyleBackColor = true
+        Me.Consulter.Visible = false
         '
         'Fermer
         '
-        Me.Fermer.Location = New System.Drawing.Point(368, 104)
+        Me.Fermer.Location = New System.Drawing.Point(333, 84)
+        Me.Fermer.Margin = New System.Windows.Forms.Padding(2)
         Me.Fermer.Name = "Fermer"
-        Me.Fermer.Size = New System.Drawing.Size(118, 39)
+        Me.Fermer.Size = New System.Drawing.Size(88, 32)
         Me.Fermer.TabIndex = 9
         Me.Fermer.Text = "Fermer"
-        Me.Fermer.UseVisualStyleBackColor = True
-        Me.Fermer.Visible = False
+        Me.Fermer.UseVisualStyleBackColor = true
+        Me.Fermer.Visible = false
         '
         'GestionInscriptions
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(641, 156)
+        Me.ClientSize = New System.Drawing.Size(549, 127)
         Me.Controls.Add(Me.Fermer)
         Me.Controls.Add(Me.Consulter)
         Me.Controls.Add(Me.ComboNomPreCandidats)
@@ -123,14 +129,15 @@ Partial Class GestionInscriptions
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ComboNumCandidats)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Icon = CType(resources.GetObject("$this.Icon"),System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "GestionInscriptions"
         Me.Text = "Gérer les inscriptions"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
+        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).EndInit
+        Me.ResumeLayout(false)
+        Me.PerformLayout
 
-    End Sub
+End Sub
 
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents ComboNumCandidats As ComboBox

@@ -154,9 +154,9 @@ Partial Class Recap
         Me.GroupBoxEcrit.Controls.Add(Me.LabelEcrit2)
         Me.GroupBoxEcrit.Controls.Add(Me.LabelEcrit1)
         Me.GroupBoxEcrit.Location = New System.Drawing.Point(10, 176)
-        Me.GroupBoxEcrit.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBoxEcrit.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBoxEcrit.Name = "GroupBoxEcrit"
-        Me.GroupBoxEcrit.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBoxEcrit.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBoxEcrit.Size = New System.Drawing.Size(150, 90)
         Me.GroupBoxEcrit.TabIndex = 13
         Me.GroupBoxEcrit.TabStop = false
@@ -165,7 +165,7 @@ Partial Class Recap
         'LabelEcrit4
         '
         Me.LabelEcrit4.AutoSize = true
-        Me.LabelEcrit4.Location = New System.Drawing.Point(5, 65)
+        Me.LabelEcrit4.Location = New System.Drawing.Point(5, 64)
         Me.LabelEcrit4.Name = "LabelEcrit4"
         Me.LabelEcrit4.Size = New System.Drawing.Size(39, 13)
         Me.LabelEcrit4.TabIndex = 3
@@ -174,7 +174,7 @@ Partial Class Recap
         'LabelEcrit3
         '
         Me.LabelEcrit3.AutoSize = true
-        Me.LabelEcrit3.Location = New System.Drawing.Point(5, 52)
+        Me.LabelEcrit3.Location = New System.Drawing.Point(5, 51)
         Me.LabelEcrit3.Name = "LabelEcrit3"
         Me.LabelEcrit3.Size = New System.Drawing.Size(39, 13)
         Me.LabelEcrit3.TabIndex = 2
@@ -183,7 +183,7 @@ Partial Class Recap
         'LabelEcrit2
         '
         Me.LabelEcrit2.AutoSize = true
-        Me.LabelEcrit2.Location = New System.Drawing.Point(5, 39)
+        Me.LabelEcrit2.Location = New System.Drawing.Point(5, 38)
         Me.LabelEcrit2.Name = "LabelEcrit2"
         Me.LabelEcrit2.Size = New System.Drawing.Size(39, 13)
         Me.LabelEcrit2.TabIndex = 1
@@ -192,7 +192,7 @@ Partial Class Recap
         'LabelEcrit1
         '
         Me.LabelEcrit1.AutoSize = true
-        Me.LabelEcrit1.Location = New System.Drawing.Point(5, 26)
+        Me.LabelEcrit1.Location = New System.Drawing.Point(5, 25)
         Me.LabelEcrit1.Name = "LabelEcrit1"
         Me.LabelEcrit1.Size = New System.Drawing.Size(39, 13)
         Me.LabelEcrit1.TabIndex = 0
@@ -204,9 +204,9 @@ Partial Class Recap
         Me.GroupBoxOral.Controls.Add(Me.Label11)
         Me.GroupBoxOral.Controls.Add(Me.Label10)
         Me.GroupBoxOral.Location = New System.Drawing.Point(168, 176)
-        Me.GroupBoxOral.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBoxOral.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBoxOral.Name = "GroupBoxOral"
-        Me.GroupBoxOral.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBoxOral.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBoxOral.Size = New System.Drawing.Size(134, 90)
         Me.GroupBoxOral.TabIndex = 14
         Me.GroupBoxOral.TabStop = false
@@ -215,7 +215,7 @@ Partial Class Recap
         'Label12
         '
         Me.Label12.AutoSize = true
-        Me.Label12.Location = New System.Drawing.Point(5, 45)
+        Me.Label12.Location = New System.Drawing.Point(5, 52)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(45, 13)
         Me.Label12.TabIndex = 2
@@ -224,7 +224,7 @@ Partial Class Recap
         'Label11
         '
         Me.Label11.AutoSize = true
-        Me.Label11.Location = New System.Drawing.Point(6, 32)
+        Me.Label11.Location = New System.Drawing.Point(6, 39)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(45, 13)
         Me.Label11.TabIndex = 1
@@ -233,7 +233,7 @@ Partial Class Recap
         'Label10
         '
         Me.Label10.AutoSize = true
-        Me.Label10.Location = New System.Drawing.Point(6, 19)
+        Me.Label10.Location = New System.Drawing.Point(6, 26)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(45, 13)
         Me.Label10.TabIndex = 0
@@ -369,7 +369,7 @@ Partial Class Recap
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Icon = CType(resources.GetObject("$this.Icon"),System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Recap"
         Me.Text = "Récapitulatif d'inscription"
         CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).EndInit

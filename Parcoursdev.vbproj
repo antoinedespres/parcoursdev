@@ -63,7 +63,8 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>logo_small_icon_only_inverted.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
@@ -94,6 +95,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BilanMatiere.Designer.vb">
+      <DependentUpon>BilanMatiere.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BilanMatiere.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ChoixRegionMatieres.Designer.vb">
       <DependentUpon>ChoixRegionMatieres.vb</DependentUpon>
     </Compile>
@@ -112,11 +119,11 @@
     <Compile Include="GestionInscriptions.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu.vb">
+    <Compile Include="MenuApp.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu.Designer.vb">
-      <DependentUpon>Menu.vb</DependentUpon>
+    <Compile Include="MenuApp.Designer.vb">
+      <DependentUpon>MenuApp.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Inscription.Designer.vb">
@@ -162,6 +169,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="BilanMatiere.resx">
+      <DependentUpon>BilanMatiere.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChoixRegionMatieres.resx">
       <DependentUpon>ChoixRegionMatieres.vb</DependentUpon>
     </EmbeddedResource>
@@ -174,8 +184,8 @@
     <EmbeddedResource Include="Inscription.resx">
       <DependentUpon>Inscription.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu.resx">
-      <DependentUpon>Menu.vb</DependentUpon>
+    <EmbeddedResource Include="MenuApp.resx">
+      <DependentUpon>MenuApp.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuBilan.resx">
       <DependentUpon>MenuBilan.vb</DependentUpon>
@@ -220,7 +230,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="logo\logo_large.png" />
-    <Content Include="logo_small_icon_only_inverted.ico" />
+    <Content Include="Logo_app.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -1,13 +1,22 @@
-﻿Public Class ConsulterInscriptions
+﻿''' <summary>
+''' Formulaire de consultation des inscriptions
+''' </summary>
+Public Class ConsulterInscriptions
+    Private Const NbMots As Integer = 2
 
+    ''' <summary>
+    ''' Chargement du formulaire
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
     Private Sub ConsulterInscriptions_Load(sender As Object, e As EventArgs) _
         Handles MyBase.Load
         Dim tableau(ListCandidats.Count - 1) As String
         LabelFacultative.Text = ""
-        Dim i as Integer = 0
+        Dim i As Integer = 0
         For Each Candi In ListCandidats
-            tableau(i)= Candi.nom & " " & Candi.prenom & " " & Candi.NumCandidat
-            i+=1
+            tableau(i) = Candi.Nom & " " & Candi.Prenom & " " & Candi.NumCandidat
+            i += 1
         Next
         Array.Sort(tableau)
         Dim j As Integer = 0
@@ -16,42 +25,55 @@
             j += 1
         Next
 
-        ' a essayer
-        ' ListBoxNomPreNum.Items.AddRange(tableau)
     End Sub
 
+    ''' <summary>
+    ''' Changement du candidat sélectionné (mise à jour des autres ListBox)
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
     Private Sub ListBoxNumCand_SelectedIndexChanged(sender As Object, e As EventArgs) _
         Handles ListBoxNomPreNumCand.SelectedIndexChanged
 
         ListBoxEcrit.Items.Clear()
         ListBoxOral.Items.Clear()
         Dim i As Integer = 0
-        For Each mat In ListCandidats(GetIndex(getNum(ListBoxNomPreNumCand.SelectedItem))).matieres
+        For Each mat In ListCandidats(GetIndex(getNum(ListBoxNomPreNumCand.SelectedItem))).Matieres
             If i < 4 Then
-                ListBoxEcrit.Items.Add(mat.Substring(0, 3).ToUpper())
+                ListBoxEcrit.Items.Add(GetTrigramme(mat))
             ElseIf i < 7 Then
-                ListBoxOral.Items.Add(mat.Substring(0, 3).ToUpper())
+                ListBoxOral.Items.Add(GetTrigramme(mat))
             ElseIf i = 7 Then
                 If mat.Equals("") Then
                     LabelFacultative.Text = "Aucune matière facultative"
                 Else
-                    LabelFacultative.Text = mat.Substring(0, 3).ToUpper()
+                    LabelFacultative.Text = GetTrigramme(mat)
                 End If
             End If
             i += 1
         Next
     End Sub
+
+    ''' <summary>
+    ''' Fermeture du formulaire
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
     Private Sub Fermer_Click(sender As Object, e As EventArgs) _
         Handles Fermer.Click
         Me.Close()
     End Sub
 
-    Private Const nbMots As Integer = 2
-    Private Function getNum(ByVal mot As String)
-        Dim tab(nbMots) As String
-        tab = mot.Split(" ")
-        If IsNumeric(tab(nbMots)) Then
-            Return CType(tab(nbMots), Integer)
+    ''' <summary>
+    ''' Obtention du numéro de candidat dans la ListBox
+    ''' </summary>
+    ''' <param name="chaine">Chaîne de caractères Nom Prénom Numéro</param>
+    ''' <returns></returns>
+    Private Function getNum(ByVal chaine As String)
+        Dim tab(NbMots) As String
+        tab = chaine.Split(" ")
+        If IsNumeric(tab(NbMots)) Then
+            Return CType(tab(NbMots), Integer)
         End If
         Return -1
     End Function
